@@ -34,16 +34,37 @@ This API allows users to manage employees and provides authentication for secure
 
 ## 📌 API Endpoints
 
-### 1️⃣ Authentication API
+-### 1️⃣ Authentication API
 
 - **Method:** `POST`
 - **Endpoint:** `/api/Auth/Login`
 - **Description:** Generates JWT token
 
 **Example Login Request:**
-```json
+-```json
 {
   "User Name": "Jayant",
   "Password": "Pass123"
 }
- 
+
+-### 2️⃣ Employee API (Protected)
+
+- **Method:** `GET`
+  - **Endpoint:** `/api/employees`
+  - **Description:** Fetch all employees
+
+- **Method:** `GET`
+  - **Endpoint:** `/api/employees/{id}`
+  - **Description:** Fetch employee by ID
+
+- **Method:** `POST`
+  - **Endpoint:** `/api/employees`
+  - **Description:** Create a new employee
+
+- **Method:** `PUT`
+  - **Endpoint:** `/api/employees/{id}`
+  - **Description:** Update an employee
+
+- **Method:** `DELETE`
+  - **Endpoint:** `/api/employees/{id}`
+  - **Description:** Delete an employee
