@@ -72,9 +72,9 @@ This API allows users to manage employees and provides authentication for secure
  
 ## 🔒 Authentication & Security
 
--JWT authentication is used to secure the API. 
--The token is generated upon successful login. 
--Users must include `Bearer <JWT_TOKEN>` in the Authorization header for protected endpoints.
+- **JWT authentication is used to secure the API.** 
+- **The token is generated upon successful login.** 
+- **Users must include `Bearer <JWT_TOKEN>` in the Authorization header for protected endpoints.**
 
 ## 📞 Contact
 
