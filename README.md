@@ -9,16 +9,7 @@ This API allows users to manage employees and provides authentication for secure
 - **Database:** SQL Server
 - **Authentication:** JWT (JSON Web Token)
 - **Documentation:** Swagger
-
-## 📁 Project Structure
-Employee_Management_System/
-│── Employee_Management_System/
-│   ├── Controllers/          # API Controllers
-│   ├── Models/               # Entity Models
-│   ├── Data/                 # Database Context
-│   ├── appsettings.json      # Configuration Settings
-│   ├── Program.cs            # Application Startup
-│   ├── Startup.cs (if used)  # Service Configuration
-│── Employee_Management_System.Tests/ 
-│── README.md     
-
+##🚀 Setup & Installation
+-**1️⃣ Clone the Repository**
+  -git clone <repository-url>
+  -cd Employee_Management_System
