@@ -69,3 +69,21 @@ This API allows users to manage employees and provides authentication for secure
 - **Method:** `DELETE`
   - **Endpoint:** `/api/employees/{id}`
   - **Description:** Delete an employee
+ 
+## 🔒 Authentication & Security
+
+-JWT authentication is used to secure the API. 
+-The token is generated upon successful login. 
+-Users must include `Bearer <JWT_TOKEN>` in the Authorization header for protected endpoints.
+
+## 📞 Contact
+
+For any questions or feedback, please reach out to the project maintainer:
+
+- **Name:** Jayant Sanjay Jagtap
+- **Email:** jayantjagtap001@gmail.com
+
+
+## 🙏 Acknowledgments
+
+- Thank you...!
