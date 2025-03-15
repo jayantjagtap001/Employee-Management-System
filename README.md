@@ -22,12 +22,12 @@ This API allows users to manage employees and provides authentication for secure
     "DefaultString": "Server=DESKTOP-CBRLF96\\SQLEXPRESS;Database=EmployeeDB;Trusted_Connection=True;TrustServerCertificate=True"
   }
   
-- **3️⃣ Apply Migrations & Update Database**
-- ```json
-  {
-  dotnet ef migrations add InitialCreate
-  dotnet ef database update
-  }
+- **3️⃣ Apply Migrations & Update Databas**e
+
+- **Add the initial migration**
+  ```bash
+  dotnet ef migrations
+  add InitialCreate
 
 - **4️⃣ Run the Application**
   -`dotnet run`
