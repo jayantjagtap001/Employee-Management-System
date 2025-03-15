@@ -23,8 +23,11 @@ This API allows users to manage employees and provides authentication for secure
   }
   
 - **3️⃣ Apply Migrations & Update Database**
-  - `dotnet ef migrations add InitialCreate`
-  - `dotnet ef database update`
+- ```json
+  {
+  dotnet ef migrations add InitialCreate
+  dotnet ef database update
+  }
 
 - **4️⃣ Run the Application**
   -`dotnet run`
