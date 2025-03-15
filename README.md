@@ -9,6 +9,7 @@ This API allows users to manage employees and provides authentication for secure
 - **Database:** SQL Server
 - **Authentication:** JWT (JSON Web Token)
 - **Documentation:** Swagger
+
 ##🚀 Setup & Installation
 -**1️⃣ Clone the Repository**
   -git clone <repository-url>
