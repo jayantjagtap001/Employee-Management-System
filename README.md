@@ -35,7 +35,7 @@ This API allows users to manage employees and provides authentication for secure
 
 ## 📌 API Endpoints
 
--### 1️⃣ Authentication API
+- ### 1️⃣ Authentication API
 
 - **Method:** `POST`
 - **Endpoint:** `/api/Auth/Login`
@@ -48,7 +48,7 @@ This API allows users to manage employees and provides authentication for secure
   "Password": "Pass123"
 }
 
--### 2️⃣ Employee API (Protected)
+- ### 2️⃣ Employee API (Protected)
 
 - **Method:** `GET`
   - **Endpoint:** `/api/employees`
