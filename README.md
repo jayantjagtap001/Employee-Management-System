@@ -21,7 +21,26 @@ This API allows users to manage employees and provides authentication for secure
   "ConnectionStrings": {
     "DefaultString": "Server=DESKTOP-CBRLF96\\SQLEXPRESS;Database=EmployeeDB;Trusted_Connection=True;TrustServerCertificate=True"
   }
+  
 - **3️⃣ Apply Migrations & Update Database**
   - `dotnet ef migrations add InitialCreate`
   - `dotnet ef database update`
+
+- **4️⃣ Run the Application**
+  -`dotnet run`
+
+## 📌 API Endpoints
+
+### 1️⃣ Authentication API
+
+- **Method:** `POST`
+- **Endpoint:** `/api/Auth/Login`
+- **Description:** Generates JWT token
+
+**Example Login Request:**
+```json
+{
+  "User Name": "Jayant",
+  "Password": "Pass123"
+}
  
