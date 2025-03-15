@@ -30,7 +30,8 @@ This API allows users to manage employees and provides authentication for secure
   add InitialCreate
 
 - **4️⃣ Run the Application**
-  -`dotnet run`
+  ```bash
+  dotnet run
 
 ## 📌 API Endpoints
 
